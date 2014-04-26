@@ -1,0 +1,9 @@
+* { margin: 0; padding: 0; }
+body { font-family: 'Century Gothic'; }
+a { text-decoration: none; }
+
+ul { list-style-type: none; }
+
+.fl { float: left; }
+
+/*.pt10 { padding-top: 10px; }*/
