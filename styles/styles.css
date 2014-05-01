@@ -2,12 +2,12 @@
 header {
     width: 100%;
     position: fixed;
-    background-color: lightgoldenrodyellow;
+    background-color: #fff;
+    z-index: 99999999999;
 }
 
 .header-menu {
     height: 85px;
-    background-color: #fff;
 }
 
 .header-menu #logo {
@@ -28,9 +28,9 @@ header {
 }
 
 .header-menu li {
-    float: left;
-    margin-right: 25px;
     position: relative;
+    float: left;
+    margin-right: 35px;
 }
 
 .header-menu li a {
@@ -64,13 +64,87 @@ header {
 .landing-page {
     width: 100%;
     height: 720px;
-    background-color: #E4E2D6;
-    background-image: url("../images/IMG_4546.png");
-    background-position: center;
-    background-repeat: repeat;
-    background-size: 100%;
-    /*background-color: darkblue; */
+    background: #E4E2D6 url("../images/computer2.jpg") no-repeat center center;
+    background-size: cover;
+    position: relative;
 }
+
+.acquaintance {
+    position: relative;
+    top: 235px;
+    width: 480px;
+    -webkit-transform: perspective(630px) rotateY(17deg) skewX(9deg);
+    font: normal 22px Arial;
+    color: #333;
+    line-height: 40px;
+}
+
+@media screen and (max-width: 1400px) { .acquaintance { padding-left: 8%; width: 450px; } }
+@media screen and (max-width: 870px) {  .acquaintance { padding-left: 8%; width: 420px; } }
+@media screen and (max-width: 780px) {  .acquaintance { padding-left: 5px; -webkit-transform: none; }}
+
+.email-me {
+    display: inline-block;
+    width: 210px;
+    padding: 15px 30px;
+    background-color: #ee5315;
+    color: #fff;
+    border-radius: 2px;
+    font: normal 22px Arial;
+    text-align: center;
+}
+
+
+.email-me-vertical-animation:before,
+.email-me-vertical-animation:after,
+.email-me-horizontal-animation:before,
+.email-me-horizontal-animation:after{
+    content: '';
+    background: white;
+    position: absolute;
+    transition: all .5s;
+}
+
+.email-me-vertical-animation:before,
+.email-me-vertical-animation:after {
+    width: 1px;
+    height: 0px;
+}
+
+.email-me-horizontal-animation:before,
+.email-me-horizontal-animation:after {
+    width: 0px;
+    height: 1px;
+}
+
+
+.email-me-vertical-animation:after,
+.email-me-horizontal-animation:after{
+    right: 0px;
+    bottom: 0px;
+}
+
+.email-me-vertical-animation:hover:before,
+.email-me-vertical-animation:hover:after {
+    height: 100%;
+}
+
+.email-me-horizontal-animation:hover:before,
+.email-me-horizontal-animation:hover:after {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 780px) {  .email-me { right: 8%; }}
+
+.email-me-vertical-animation {
+    position: absolute;
+    right: 20%;
+    bottom: 140px;
+}
+
+.email-me:hover { background-color: #D3470F; }
+
 /*************** LANDING PAGE END**************/
 
 /*************** LOGO_SLIDER**************/

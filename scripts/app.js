@@ -5,5 +5,5 @@ $(function(){
     });
 
 
-    console && console.log('%cHi, curious man!', 'color: orange; font-size: 4em; border: solid 2px #8CC63F')
+    console && console.log('%cHi, curious man!', 'color: orange; font-size: 4em; border: 2px solid #8CC63F');
 });
