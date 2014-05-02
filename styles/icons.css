@@ -1,0 +1,27 @@
+/*************** ICONS **************/
+.icon-css {
+    background-image: url(../images/skills/css3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-json {
+    background-image: url(../images/skills/JSON2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-knockout {
+    background-image: url(../images/skills/knockoutjs3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-php {
+    background-image: url(../images/skills/PHP.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-tdd {
+    background-image: url(../images/skills/TDD.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*************** ICONS END **************/

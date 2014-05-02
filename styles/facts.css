@@ -1,0 +1,22 @@
+/*****************FACTS****************/
+.facts-wrap {
+    background-color: lightgreen;
+}
+
+    .facts {
+        height: 510px;
+        background-color: #6AC72A;
+    }
+
+        .facts-menu li {
+            float: left;
+            margin-right: 1px;
+        }
+
+            .facts-menu li div {
+                width: 216px;
+                height: 140px;
+                background-color: #fff;
+                opacity: .5;
+            }
+/*****************FACTS END****************/

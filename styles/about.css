@@ -1,0 +1,51 @@
+/*****************ABOUT****************/
+.about-wrap {
+    /*background-color: papayawhip;*/
+}
+
+    .about {
+        background-color: #FFF;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #333;
+    }
+
+    .about span {
+        display: inline-block;
+        padding-top: 120px;
+        font-size: 33px;
+    }
+
+    .about p { line-height: 2.2em; }
+
+    .about a {
+        display: inline-block;
+        margin: 55px 0 50px 0;
+        padding-left: 30px;
+        background: transparent url(../images/icon-pdf.png) no-repeat center left;
+        color: #333;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+        .about a:hover { color: #EE5315; }
+
+/*--- Round Portrait --*/
+.portrait-stripe {
+    float: left;
+    clear: left;
+    height: 48px;
+    padding-right: 35px;
+}
+
+    .portrait-stripe img {
+        width: 240px;
+        height: 240px;
+        border-radius: 50%;
+    }
+
+    .portrait-stripe:nth-of-type(1), .portrait-stripe:nth-of-type(5) { width: 190px;  }
+    .portrait-stripe:nth-of-type(2), .portrait-stripe:nth-of-type(4) { width: 220px;  }
+    .portrait-stripe:nth-of-type(3) { width: 240px; }
+/*--- Round Portrait end --*/
+/*****************ABOUT END****************/

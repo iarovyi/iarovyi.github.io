@@ -1,9 +1,123 @@
 * { margin: 0; padding: 0; }
 body { font-family: 'Century Gothic'; }
 a { text-decoration: none; }
-
 ul { list-style-type: none; }
 
 .fl { float: left; }
+.fr { float: right; }
+.cb { clear: both;}
 
-/*.pt10 { padding-top: 10px; }*/
+/*.clearfix:before {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}*/
+
+@media screen and (max-width: 780px) {
+    .hidden-xs { display: none; }
+    .visible-xs { display: block; }
+    .zero-height-xs { height: 0px; }
+}
+
+@media screen and (min-width: 780px) {
+    .visible-xs { display: none; }
+}
+
+
+
+
+
+
+.center {
+    margin: 0 auto;
+    max-width: 870px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.title-small {
+    padding: 50px 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.title-big {
+    padding: 80px 0 60px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+
+/***************** Old Browsers ****************/
+.old-browser-message { display: none; }
+.oldie .old-browser-message {
+    display: block;
+    position: fixed;
+    background: gray;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+}
+
+.oldie body { overflow: hidden; }
+/***************** Old Browsers end ****************/
+
+
+
+/*****************ANIMATIONS****************/
+/*--- Moving borders animation --*/
+.vertical-border-animation:before,
+.vertical-border-animation:after,
+.horizontal-border-animation:before,
+.horizontal-border-animation:after{
+    content: '';
+    background: white;
+    position: absolute;
+    transition: all .5s;
+}
+
+.vertical-border-animation:before,
+.vertical-border-animation:after {
+    width: 1px;
+    height: 0px;
+}
+
+.horizontal-border-animation:before,
+.horizontal-border-animation:after {
+    width: 0px;
+    height: 1px;
+}
+
+
+.vertical-border-animation:after,
+.horizontal-border-animation:after{
+    right: 0px;
+    bottom: 0px;
+}
+
+.vertical-border-animation:hover:before,
+.vertical-border-animation:hover:after {
+    height: 100%;
+}
+
+.horizontal-border-animation:hover:before,
+.horizontal-border-animation:hover:after {
+    width: 100%;
+}
+/*--- Moving borders animation end--*/
+/*****************ANIMATIONS END****************/
+
+
+
+
+
+
+

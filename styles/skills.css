@@ -1,0 +1,58 @@
+/*****************SKILLS****************/
+.skills-wrap {
+    background-color: antiquewhite;
+}
+
+    .skills {
+        background-color: #FFF;
+        padding: 0px 30px;
+    }
+
+    /*--- Button group --*/
+    .btn-group {
+        border: solid #ccc 1px;
+        border-radius: 4px;
+        margin: 47px 32px 0px 0px;
+    }
+
+        .btn-group button {
+            background: none;
+            border: none;
+            outline: none;
+            padding: 6px 12px;
+            font-size: 17px;
+            color: #333;
+            cursor: pointer;
+        }
+
+        .btn-group button:not(:first-of-type) {
+            border-left: solid #ccc 1px;
+        }
+
+        .btn-group button.active {
+            background-color: #ebebeb;
+            border-color: #adadad;
+        }
+    /*--- Button group end --*/
+
+    .skills-icons-list {
+
+    }
+
+        .skills-icons-list li {
+            width: 140px;
+            height: 77px;
+            float: left;
+            box-sizing: border-box;
+            border-radius: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            border: solid #BDBDBD 1px;
+            -webkit-filter: grayscale(1);
+        }
+
+    #skills-text-list {
+        background: orange;
+        height: 400px;
+    }
+/*****************SKILLS END****************/

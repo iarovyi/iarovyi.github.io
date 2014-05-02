@@ -1,0 +1,31 @@
+/*************** LOGO_SLIDER**************/
+.logo-slider {
+    height: 100px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+    .logo-slider ul {
+        width: 99999px;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        -webkit-animation: sliderAnimation 70s linear infinite;
+    }
+
+        .logo-slider ul li {
+            float: left;
+            width: 140px;
+            height: 77px;
+            margin-right: 20px;
+            outline: red dotted 1px;
+        }
+
+/*--- Slide animation --*/
+@-webkit-keyframes sliderAnimation {
+    from { left: 0px; }
+    to   { left: -3000px; }
+}
+/*--- Slide animation end--*/
+/*************** LOGO_SLIDER END**************/
