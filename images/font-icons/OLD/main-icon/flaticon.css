@@ -1,0 +1,115 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-baby9:before {
+	content: "\e000";
+}
+.flaticon-bald10:before {
+	content: "\e001";
+}
+.flaticon-black285:before {
+	content: "\e002";
+}
+.flaticon-black295:before {
+	content: "\e003";
+}
+.flaticon-businessman51:before {
+	content: "\e004";
+}
+.flaticon-clean1:before {
+	content: "\e005";
+}
+.flaticon-creative4:before {
+	content: "\e006";
+}
+.flaticon-feet1:before {
+	content: "\e007";
+}
+.flaticon-graduation28:before {
+	content: "\e008";
+}
+.flaticon-human27:before {
+	content: "\e009";
+}
+.flaticon-human30:before {
+	content: "\e00a";
+}
+.flaticon-human32:before {
+	content: "\e00b";
+}
+.flaticon-human40:before {
+	content: "\e00c";
+}
+.flaticon-idea:before {
+	content: "\e00d";
+}
+.flaticon-idea12:before {
+	content: "\e00e";
+}
+.flaticon-idea13:before {
+	content: "\e00f";
+}
+.flaticon-idea14:before {
+	content: "\e010";
+}
+.flaticon-light28:before {
+	content: "\e011";
+}
+.flaticon-light56:before {
+	content: "\e012";
+}
+.flaticon-light59:before {
+	content: "\e013";
+}
+.flaticon-light61:before {
+	content: "\e014";
+}
+.flaticon-light79:before {
+	content: "\e015";
+}
+.flaticon-lightbulb15:before {
+	content: "\e016";
+}
+.flaticon-lightbulb23:before {
+	content: "\e017";
+}
+.flaticon-lightbulb28:before {
+	content: "\e018";
+}
+.flaticon-lightbulb29:before {
+	content: "\e019";
+}
+.flaticon-lightbulb3:before {
+	content: "\e01a";
+}
+.flaticon-lightbulb8:before {
+	content: "\e01b";
+}
+.flaticon-money109:before {
+	content: "\e01c";
+}
+.flaticon-notion:before {
+	content: "\e01d";
+}
+.flaticon-pawprints:before {
+	content: "\e01e";
+}
+.flaticon-person2:before {
+	content: "\e01f";
+}
+.flaticon-source2:before {
+	content: "\e020";
+}

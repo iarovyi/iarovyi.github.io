@@ -11,6 +11,9 @@
     <link rel="icon" href="images/geek_icon.png" type="image/x-icon">
     <link href="styles/framework.css" type="text/css" rel="stylesheet"/>
 
+
+    <!-- HEADERS LIKE http://www.addhen.org/about/ -->
+
     <link href="styles/about.css" type="text/css" rel="stylesheet"/>
     <link href="styles/contacts.css" type="text/css" rel="stylesheet"/>
     <link href="styles/facts.css" type="text/css" rel="stylesheet"/>
@@ -21,13 +24,15 @@
     <link href="styles/skills.css" type="text/css" rel="stylesheet"/>
     <link href="styles/slider.css" type="text/css" rel="stylesheet"/>
     <link href="styles/icons.css" type="text/css" rel="stylesheet"/>
+
+    <link href="images/icomoon/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body data-spy="scroll">
     <div class="old-browser-message">Please, upgrade your browser.</div>
     <!--HEADER-->
-    <header>
+    <header class="header">
         <nav class="center nav">
-            <a id="logo" class="hidden-xs" href="http://iarovyi.github.io/"></a>
+            <a id="logo" class="hidden-xs icon-logo fl" href="http://iarovyi.github.io/"></a>
             <button id="menu-toggle" class="menu-toggle fr visible-xs"><span class="icon-bar"></span></button>
             <ul class="zero-height-xs">
                 <li><a href="#landing-page"></a></li>
@@ -57,52 +62,93 @@
     <!--LANDING PAGE END-->
 
     <!--SLIDER-->
-    <div class="logo-slider">
+    <div id="logo-slider" class="logo-slider">
         <ul>
-            <li class="icon-css"></li>
-            <li class="icon-json"></li>
-            <li class="icon-knockout"></li>
-            <li class="icon-php"></li>
-            <li class="icon-tdd"></li>
+            <!-- EXPERIMENT -->
+            <!--<li><a><img src="images/Originals/skills/css3.png"></a></li>-->
 
-            <li>1</li><li>2</li><li>3</li><li>4</li><li>5</li>
-            <li>6</li><li>7</li><li>8</li><li>9</li><li>10</li>
-            <li>11</li><li>12</li><li>13</li><li>14</li><li>15</li>
-            <li>16</li><li>17</li><li>18</li><li>19</li><li>20</li>
-            <li>21</li><li>22</li><li>23</li><li>24</li><li>25</li>
-            <li>26</li><li>27</li><li>28</li><li>29</li><li>30</li>
-            <li>31</li><li>32</li><li>33</li><li>34</li><li>35</li>
-            <li>36</li><li>37</li><li>38</li><li>39</li><li>40</li>
-            <li>41</li><li>42</li><li>43</li><li>44</li><li>45</li>
+            <!-- EXPERIMENT -->
+
+
+            <li class="icon icon-css"><a></a></li>
+            <li class="icon icon-html"><a></a></li>
+            <li class="icon icon-iis"><a></a></li>
+            <li class="icon icon-photoshop"><a></a></li>
+            <li class="icon icon-js"><a></a></li>
+
+            <li class="icon icon-ui"><a></a></li>
+            <li class="icon icon-scrum"><a></a></li>
+            <li class="icon icon-redis"><a></a></li>
+            <li class="icon icon-nosql"><a></a></li>
+            <li class="icon icon-node"><a></a></li>
+
+            <li class="icon icon-nginx"><a></a></li>
+            <li class="icon icon-mysql"><a></a></li>
+            <li class="icon icon-linux"><a></a></li>
+            <li class="icon icon-jquery"><a></a></li>
+            <li class="icon icon-jasmine"><a></a></li>
+
+            <li class="icon icon-bootstrap"><a></a></li>
+            <li class="icon icon-wp"><a></a></li>
+            <li class="icon icon-nhibernate"><a></a></li>
+            <li class="icon icon-oracle"><a></a></li>
+            <li class="icon icon-siesta"><a></a></li>
+
+            <li class="icon icon-silverlight"><a></a></li>
+            <li class="icon icon-wcf"><a></a></li>
+            <li class="icon icon-telerik"><a></a></li>
+            <li class="icon icon-mongodb"><a></a></li>
+            <li class="icon icon-knockout"><a></a></li>
+
+            <li class="icon icon-blend"><a></a></li>
+            <li class="icon icon-wpf"><a></a></li>
+            <li class="icon icon-ef"><a></a></li>
+            <li class="icon icon-xpath"><a></a></li>
+            <li class="icon icon-xml"><a></a></li>
+
+            <li class="icon icon-tdd"><a></a></li>
+            <li class="icon icon-svn"><a></a></li>
+            <li class="icon icon-php"><a></a></li>
+            <li class="icon icon-odata"><a></a></li>
+            <li class="icon icon-nunit"><a></a></li>
+
+            <li class="icon icon-mvc"><a></a></li>
+            <li class="icon icon-moq"><a></a></li>
+            <li class="icon icon-mercurial"><a></a></li>
+            <li class="icon icon-json"><a></a></li>
+            <li class="icon icon-git"><a></a></li>
+
+            <li class="icon icon-extjs"><a></a></li>
+            <li class="icon icon-chrome"><a></a></li>
+            <li class="icon icon-csharp"><a></a></li>
+            <li class="icon icon-apache"><a></a></li>
         </ul>
     </div>
     <!--SLIDER END-->
 
     <!--ABOUT-->
-    <div class="about-wrap">
-        <div id="about" class="about center">
-            <span>Exploring the .NET universe using curly brackets</span>
-            <h1 class="title-small">About</h1>
+    <div id="about" class="about center">
+        <span>Exploring the .NET universe using curly brackets</span>
+        <h1 class="title-small">About</h1>
 
-            <div class="portrait-stripe"><img src="images/portrait.jpg"></div>
-            <div class="portrait-stripe"></div>
-            <div class="portrait-stripe"></div>
-            <div class="portrait-stripe"></div>
-            <div class="portrait-stripe"></div>
+        <div class="portrait-stripe"><img src="images/portrait.jpg"></div>
+        <div class="portrait-stripe"></div>
+        <div class="portrait-stripe"></div>
+        <div class="portrait-stripe"></div>
+        <div class="portrait-stripe"></div>
 
-            <p>
-                Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-                Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-                Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-                Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-                Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-                Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-                Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-                Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
-            </p>
+        <p>
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+            Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla
+        </p>
 
-            <a href="CV_Sergii_Iarovyi.pdf">My Resume</a>
-        </div>
+        <a href="CV_Sergii_Iarovyi.pdf">My Resume</a>
     </div>
     <!--ABOUT END-->
 
@@ -132,48 +178,72 @@
     <!--FACTS END-->
 
     <!--SKILLS-->
-    <div class="skills-wrap">
-        <div id="skills" class="skills center">
-            <h1 class="title-small fl">Skills</h1>
+    <div id="skills" class="skills center">
+        <h1 class="title-small fl">Skills</h1>
+        <div class="btn-group fr">
+            <button type="button" data-fadeIn="#skills-icons-list" data-hide="#skills-text-list" class="active">Icons</button><button data-hide="#skills-icons-list" data-fadeIn="#skills-text-list" type="button">Text</button>
+        </div>
+        <ul id="skills-icons-list" class="skills-icons-list cb">
+            <!-- Comment will be replaced with items from logo-slider -->
+        </ul>
 
-            <div class="btn-group fr">
-                <button type="button" data-fadeIn="#skills-icons-list" data-hide="#skills-text-list" class="active">Icons</button><button data-hide="#skills-icons-list" data-fadeIn="#skills-text-list" type="button">Text</button>
-            </div>
-
-            <ul id="skills-icons-list" class="skills-icons-list cb">
-                <li class="icon-css"></li>
-                <li class="icon-json"></li>
-                <li class="icon-knockout"></li>
-                <li class="icon-php"></li>
-                <li class="icon-tdd"></li>
-
-
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li><li></li><li></li>
-                <li></li><li></li><li></li><li></li><li></li>
-            </ul>
-
-            <div id="skills-text-list" class="cb" style="display: none">
-
-            </div>
+        <div id="skills-text-list" class="cb" style="display: none">
+            <!-- TODO: add text skills -->
         </div>
     </div>
     <!--SKILLS END-->
 
     <!--PROJECTS-->
     <div class="projects-wrap">
-        <div id="projects" class="projects center"></div>
+        <div id="projects" class="projects center">
+            <h1 class="title-small">Last projects</h1>
+
+            <ul>
+                <li>
+                    <a>
+                        <span>Title</span>
+                        <p>
+                            Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello
+                            Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello Hello
+                        </p>
+                    </a>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </div>
     </div>
     <!--PROJECTS END-->
 
     <!--CONTACTS-->
     <div class="contacts-wrap">
-        <div id="contacts" class="contacts center"></div>
+        <div id="contacts" class="contacts center">
+
+
+
+
+
+            <div style="font-size: 35px; color: white">
+                <span class="icon-thumb-up"></span>
+                <span class="icon-skype"></span>
+                <span class="icon-science"></span>
+                <span class="icon-phone"></span>
+                <span class="icon-logo"></span>
+                <span class="icon-linkedin"></span>
+                <span class="icon-head"></span>
+                <span class="icon-github"></span>
+                <span class="icon-email"></span>
+                <span class="icon-cup"></span>
+                <span class="icon-briefcase"></span>
+            </div>
+
+
+
+
+
+        </div>
     </div>
     <!--CONTACTS END-->
 

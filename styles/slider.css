@@ -12,6 +12,10 @@
         top: 10px;
         left: 0px;
         -webkit-animation: sliderAnimation 70s linear infinite;
+        -moz-animation: sliderAnimation 70s linear infinite;
+        -ms-animation: sliderAnimation 70s linear infinite;
+        -o-animation: sliderAnimation 70s linear infinite;
+        animation: sliderAnimation 70s linear infinite;
     }
 
         .logo-slider ul li {
@@ -27,5 +31,20 @@
     from { left: 0px; }
     to   { left: -3000px; }
 }
-/*--- Slide animation end--*/
+
+@-moz-keyframes sliderAnimation {
+    from { left: 0px; }
+    to   { left: -3000px; }
+}
+
+@-o-keyframes sliderAnimation {
+    from { left: 0px; }
+    to   { left: -3000px; }
+}
+
+@keyframes sliderAnimation {
+    from { left: 0px; }
+    to   { left: -3000px; }
+}
+/*--- Slide animation end --*/
 /*************** LOGO_SLIDER END**************/

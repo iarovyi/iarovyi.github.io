@@ -1,27 +1,155 @@
 /*************** ICONS **************/
-.icon-css {
-    background-image: url(../images/skills/css3.png);
+
+/*.skills-icons-list li {position: relative;}
+
+.skills-icons-list li a {
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    outline: red dotted 1px;
+}
+
+
+.icon-xxx {
+
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon { position: relative; }
+
+.icon a {
+    margin: auto;
+    display: block;
+
+
+    margin-top: 6px; /*Add margings for every group of icons*/
+
+
+    /*margin: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;*/
+    background-image: url("../images/sprite.png");
     background-repeat: no-repeat;
     background-position: center;
+    outline: red dotted 1px;
 }
-.icon-json {
-    background-image: url(../images/skills/JSON2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.icon-knockout {
-    background-image: url(../images/skills/knockoutjs3.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.icon-php {
-    background-image: url(../images/skills/PHP.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.icon-tdd {
-    background-image: url(../images/skills/TDD.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-/*************** ICONS END **************/
+
+.icon.icon-css a,
+.icon.icon-html a,
+.icon.icon-iis a,
+.icon.icon-photoshop a,
+.icon.icon-js a
+{ width: 50px; height: 60px; }
+
+.icon.icon-css a { background-position: 0px 0px; }
+.icon.icon-html a { background-position: -50px 0px; }
+.icon.icon-iis a { background-position: -100px 0px; }
+.icon.icon-photoshop a { background-position: -150px 0px; }
+.icon.icon-js a { background-position: -200px 0px; }
+
+.icon.icon-ui a,
+.icon.icon-scrum a,
+.icon.icon-redis a,
+.icon.icon-nosql a,
+.icon.icon-node a,
+.icon.icon-nginx a,
+.icon.icon-mysql a,
+.icon.icon-linux a,
+.icon.icon-jquery a,
+.icon.icon-jasmine a
+{ width: 105px; height: 57px; }
+
+.icon.icon-ui a { background-position: 0px 0px; }
+.icon.icon-scrum a { background-position: -105px 0px; }
+.icon.icon-redis a { background-position: -210px 0px; }
+.icon.icon-nosql a { background-position: -315px 0px; }
+.icon.icon-node a { background-position: -420px 0px; }
+.icon.icon-nginx a { background-position: 0px 0px; }
+.icon.icon-mysql a { background-position: -105px 0px; }
+.icon.icon-linux a { background-position: -210px 0px; }
+.icon.icon-jquery a { background-position: -315px 0px; }
+.icon.icon-jasmine a { background-position: -420px 0px; }
+
+.icon.icon-bootstrap a,
+.icon.icon-wp a,
+.icon.icon-nhibernate a,
+.icon.icon-oracle a,
+.icon.icon-siesta a,
+.icon.icon-silverlight a,
+.icon.icon-wcf a,
+.icon.icon-telerik a,
+.icon.icon-mongodb a,
+.icon.icon-knockout a,
+.icon.icon-blend a,
+.icon.icon-wpf a,
+.icon.icon-ef a
+{ width: 140px; height: 70px;}
+
+.icon.icon-bootstrap a { background-position: 0px 0px; }
+.icon.icon-wp a { background-position: -140px 0px; }
+.icon.icon-nhibernate a { background-position: -280px 0px; }
+.icon.icon-oracle a { background-position: -420px 0px; }
+.icon.icon-siesta a { background-position: -560px 0px; }
+.icon.icon-silverlight a { background-position: 0px 0px; }
+.icon.icon-wcf a { background-position: -140px 0px; }
+.icon.icon-telerik a { background-position: -280px 0px; }
+.icon.icon-mongodb a { background-position: -420px 0px; }
+.icon.icon-knockout a { background-position: 0px 0px; }
+.icon.icon-blend a { background-position: -140px 0px; }
+.icon.icon-wpf a { background-position: -280px 0px; }
+.icon.icon-ef a { background-position: -420px 0px; }
+
+.icon.icon-xpath a,
+.icon.icon-xml a,
+.icon.icon-tdd a,
+.icon.icon-svn a,
+.icon.icon-php a,
+.icon.icon-odata a,
+.icon.icon-nunit a,
+.icon.icon-mvc a,
+.icon.icon-moq a,
+.icon.icon-mercurial a,
+.icon.icon-json a,
+.icon.icon-git a,
+.icon.icon-extjs a,
+.icon.icon-chrome a,
+.icon.icon-csharp a,
+.icon.icon-apache a
+{ width: 100px; height: 80px; }
+
+.icon.icon-xpath a { background-position: 0px 0px; }
+.icon.icon-xml a { background-position: -100px 0px; }
+.icon.icon-tdd a { background-position: -200px 0px; }
+.icon.icon-svn a { background-position: -300px 0px; }
+.icon.icon-php a { background-position: -400px 0px; }
+.icon.icon-odata a { background-position: -500px 0px; }
+.icon.icon-nunit a { background-position: -600px 0px; }
+.icon.icon-mvc a { background-position: -700px 0px; }
+
+.icon.icon-moq a { background-position: 0px 0px; }
+.icon.icon-mercurial a { background-position: -100px 0px; }
+.icon.icon-json a { background-position: -200px 0px; }
+.icon.icon-git a { background-position: -300px 0px; }
+.icon.icon-extjs a { background-position: -400px 0px; }
+.icon.icon-chrome a { background-position: -500px 0px; }
+.icon.icon-csharp a { background-position: -600px 0px; }
+.icon.icon-apache a { background-position: -700px 0px; }

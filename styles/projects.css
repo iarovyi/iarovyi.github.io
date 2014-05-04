@@ -1,10 +1,17 @@
 /*****************PROJECTS****************/
 .projects-wrap {
-    background-color: gray;
+    background-color: #EEE;
 }
 
     .projects {
-        height: 870px;
-        background-color: #EEE;
+        padding-bottom: 100px;
+    }
+
+    .projects li {
+        border: orange dotted 1px;
+        box-sizing: border-box;
+        width: 50%;
+        height: 300px;
+        float: left;
     }
 /*****************PROJECTS END****************/

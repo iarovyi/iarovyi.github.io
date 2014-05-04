@@ -1,21 +1,26 @@
 /*************** HEADER **************/
-header {
+.header {
     width: 100%;
     position: fixed;
     background-color: #fff;
     z-index: 900;
     border-bottom: solid gray 1px;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
     transition: all .4s;
 }
-
     .nav #logo {
-        transition: margin .4s;
-        float: left;
-        background: url("../images/lamp.png") no-repeat;
-        background-size: 80%;
-        width: 75px;
-        height: 65px;
-        margin: 10px 0;
+        font-size: 44px;
+        color: #F89C49;
+        padding-top: 19px;
+        display: inline-block;
+
+        /*padding or margin*/
+        -webkit-transition: padding .4s;
+        -moz-transition: padding .4s;
+        -o-transition: padding .4s;
+        transition: padding .4s;
     }
 
     /*--- Menu --*/
@@ -27,7 +32,9 @@ header {
             position: relative;
             float: left;
             margin-right: 35px;
-
+            -webkit-transition: all .4s;
+            -moz-transition: all .4s;
+            -o-transition: all .4s;
             transition: all .4s;
         }
 
@@ -61,7 +68,8 @@ header {
     }
 
     .thin-header .nav #logo {
-        margin: 0px;
+        padding-top: 9px;
+        font-size: 37px;
     }
     /*--- Thin header end --*/
 

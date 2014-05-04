@@ -17,7 +17,7 @@ ul { list-style-type: none; }
 }*/
 
 @media screen and (max-width: 780px) {
-    .hidden-xs { display: none; }
+    .hidden-xs { display: none !important; }
     .visible-xs { display: block; }
     .zero-height-xs { height: 0px; }
 }
@@ -81,6 +81,9 @@ ul { list-style-type: none; }
     content: '';
     background: white;
     position: absolute;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
     transition: all .5s;
 }
 
@@ -114,10 +117,6 @@ ul { list-style-type: none; }
 }
 /*--- Moving borders animation end--*/
 /*****************ANIMATIONS END****************/
-
-
-
-
 
 
 

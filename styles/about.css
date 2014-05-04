@@ -1,14 +1,10 @@
 /*****************ABOUT****************/
-.about-wrap {
-    /*background-color: papayawhip;*/
+.about {
+    background-color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #333;
 }
-
-    .about {
-        background-color: #FFF;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        color: #333;
-    }
 
     .about span {
         display: inline-block;
@@ -29,7 +25,6 @@
     }
 
         .about a:hover { color: #EE5315; }
-
 /*--- Round Portrait --*/
 .portrait-stripe {
     float: left;
