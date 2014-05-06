@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?bm2g8f');
-	src:url('fonts/icomoon.eot?#iefixbm2g8f') format('embedded-opentype'),
-		url('fonts/icomoon.woff?bm2g8f') format('woff'),
-		url('fonts/icomoon.ttf?bm2g8f') format('truetype'),
-		url('fonts/icomoon.svg?bm2g8f#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?8vt890');
+	src:url('fonts/icomoon.eot?#iefix8vt890') format('embedded-opentype'),
+		url('fonts/icomoon.woff?8vt890') format('woff'),
+		url('fonts/icomoon.ttf?8vt890') format('truetype'),
+		url('fonts/icomoon.svg?8vt890#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,32 +23,23 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-github:before {
+	content: "\e605";
+}
+.icon-skype:before {
+	content: "\e600";
+}
+.icon-phone:before {
+	content: "\e602";
+}
 .icon-linkedin:before {
 	content: "\e604";
 }
-.icon-wink1:before {
+.icon-email:before {
 	content: "\e61c";
-}
-.icon-smiling27:before {
-	content: "\e61d";
 }
 .icon-happy38:before {
 	content: "\e61e";
-}
-.icon-face4:before {
-	content: "\e61f";
-}
-.icon-emoticon85:before {
-	content: "\e620";
-}
-.icon-emoticon82:before {
-	content: "\e621";
-}
-.icon-emoticon65:before {
-	content: "\e622";
-}
-.icon-cool:before {
-	content: "\e623";
 }
 .icon-educational9:before {
 	content: "\e617";
@@ -71,20 +62,11 @@
 .icon-books22:before {
 	content: "\e61b";
 }
-.icon-email:before {
-	content: "\e600";
-}
 .icon-working:before {
 	content: "\e601";
 }
-.icon-skype:before {
-	content: "\e602";
-}
-.icon-phone:before {
+.icon-phone2:before {
 	content: "\e603";
-}
-.icon-github:before {
-	content: "\e605";
 }
 .icon-projects:before {
 	content: "\e606";

@@ -1,6 +1,6 @@
 /*****************PROJECTS****************/
 .projects-wrap {
-    background-color: #EEE;
+    background-color: #eee;
 }
 
     .projects {
@@ -8,10 +8,10 @@
     }
 
     .projects li {
-        border: orange dotted 1px;
-        box-sizing: border-box;
+        float: left;
         width: 50%;
         height: 300px;
-        float: left;
+        border: orange dotted 1px;
+        box-sizing: border-box;
     }
 /*****************PROJECTS END****************/

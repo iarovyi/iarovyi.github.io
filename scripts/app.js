@@ -88,6 +88,12 @@ $(function(){
         }
     }
 
+    //Анимация
+    $('#textSkills').on('click', function() {
+        $('#skills-text-list').find('div').addClass('flipInX');
+    });
+    //Анимация конец
+
     function navigate() {
         var section = $.getURLParameter('section');
         if (section) {

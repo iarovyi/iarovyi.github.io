@@ -1,6 +1,7 @@
 /*****************SKILLS****************/
 .skills {
     background-color: #FFF;
+    padding-bottom: 40px;
 }
 
 /*--- Button group --*/
@@ -51,7 +52,7 @@
     .skills-icons-list li:hover { border: 1px solid #E57700; }
 
         .skills-icons-list li a {
-            opacity: .5;
+            opacity: .6;
             -webkit-filter: grayscale(1);
             -moz-filter: grayscale(1);
             -ms-filter: grayscale(1);
@@ -59,8 +60,28 @@
             filter: grayscale(1);
         }
 
-#skills-text-list {
-    background: orange;
-    height: 400px;
-}
+    #skills-text-list div {
+        background-color: rgba(194, 186, 179, 0.5);
+        width: 796px;
+        padding: 2px 15px;
+        margin: 0 auto 5px auto;
+        border-radius: 3px;
+    }
+
+        .skills-title {
+            display: block;
+            color: #EE5315;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .skills-type {
+            color: #333;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
 /*****************SKILLS END****************/
+
+
+

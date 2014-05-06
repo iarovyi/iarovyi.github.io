@@ -2,12 +2,13 @@
 <!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="11.611px" height="8.295px" viewBox="0 0 11.611 8.295" enable-background="new 0 0 11.611 8.295" xml:space="preserve">
+	 width="28.006px" height="28.006px" viewBox="-0.155 -4.129 28.006 28.006" enable-background="new -0.155 -4.129 28.006 28.006"
+	 xml:space="preserve">
 <g>
-	<path d="M5.806,5.807L4.37,4.55L0.263,8.07c0.149,0.138,0.351,0.225,0.573,0.225h9.94c0.221,0,0.422-0.086,0.57-0.225L7.242,4.55
-		L5.806,5.807z"/>
-	<path d="M11.349,0.227c-0.149-0.14-0.35-0.225-0.573-0.225h-9.94c-0.221,0-0.422,0.086-0.572,0.227l5.542,4.75L11.349,0.227z"/>
-	<polygon points="0.001,0.73 0.001,7.62 4.009,4.214 	"/>
-	<polygon points="7.604,4.214 11.611,7.62 11.611,0.728 	"/>
+	<path d="M13.848,13.824l-3.425-2.993l-9.797,8.381c0.355,0.329,0.837,0.536,1.367,0.536h23.711c0.527,0,1.007-0.205,1.36-0.536
+		l-9.79-8.381L13.848,13.824z"/>
+	<path d="M27.071,0.538c-0.355-0.333-0.835-0.536-1.367-0.536H1.993c-0.527,0-1.007,0.205-1.364,0.54l13.22,11.31L27.071,0.538z"/>
+	<polygon points="0.001,1.735 0.001,18.14 9.562,10.031 	"/>
+	<polygon points="18.137,10.031 27.695,18.14 27.695,1.731 	"/>
 </g>
 </svg>
