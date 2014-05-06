@@ -18,12 +18,19 @@
         animation: sliderAnimation 70s linear infinite;
     }
 
+    .logo-slider ul:hover {
+        -webkit-animation-play-state: paused;
+        -moz-animation-play-state: paused;
+        -ms-animation-play-state: paused;
+        -o-animation-play-state: paused;
+        animation-play-state: paused;
+    }
+
         .logo-slider ul li {
             float: left;
             width: 140px;
-            height: 77px;
+            height: 80px;
             margin-right: 20px;
-            outline: red dotted 1px;
         }
 
 /*--- Slide animation --*/

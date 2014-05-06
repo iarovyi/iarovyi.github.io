@@ -8,17 +8,24 @@
 
     .about span {
         display: inline-block;
-        padding-top: 120px;
+        padding-top: 100px;
         font-size: 33px;
     }
 
     .about p { line-height: 2.2em; }
+    .about p:not(:nth-of-type(1)) { padding-top: 10px;}
+
+    .about a:before {
+        content: '\e607';
+        font-family: 'icomoon';
+        color: red;
+        font-weight: normal;
+        padding-right: 6px;
+    }
 
     .about a {
         display: inline-block;
         margin: 55px 0 50px 0;
-        padding-left: 30px;
-        background: transparent url(../images/icon-pdf.png) no-repeat center left;
         color: #333;
         font-size: 20px;
         font-weight: bold;

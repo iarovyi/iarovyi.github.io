@@ -1,6 +1,6 @@
 /*****************FACTS****************/
 .facts-wrap {
-    background-color: lightgreen;
+    background-color: #6AC72A;
 }
 
     .facts {
@@ -8,15 +8,39 @@
         background-color: #6AC72A;
     }
 
+        .facts h1:after {
+            content: '\e61e';
+            font-family: 'icomoon';
+            margin-left: 15px;
+            font-size: 35px;
+        }
+
         .facts-menu li {
             float: left;
-            margin-right: 1px;
+            margin-right: 2px;
+            text-align: center;
         }
 
             .facts-menu li div {
-                width: 216px;
-                height: 140px;
-                background-color: #fff;
-                opacity: .5;
+                width: 215px;
+                background-color: rgba(255, 255, 255, .3);
+                font-size: 50px;
+                color: #fff;
+                padding: 45px 0;
             }
+
+            .facts-menu li span { display: block; }
+
+            .facts-menu li .number {
+                color: #EE5315;
+                font-size: 30px;
+                margin: 30px 0 3px 0;
+            }
+
+            .facts-menu li .type {
+                color: #333;
+                font-size: 20px;
+            }
+
+
 /*****************FACTS END****************/

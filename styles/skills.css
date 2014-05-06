@@ -20,6 +20,9 @@
         cursor: pointer;
     }
 
+    .btn-group button:first-child { border-radius: 4px 0px 0px 4px; }
+    .btn-group button:last-child { border-radius: 0px 4px 4px 0px; }
+
     .btn-group button:not(:first-of-type) {
         border-left: solid #ccc 1px;
     }
@@ -31,24 +34,30 @@
 /*--- Button group end --*/
 
 .skills-icons-list {
-    padding-left: 30px;
+    padding-left: 45px;
 }
 
     .skills-icons-list li {
         width: 140px;
-        height: 77px;
+        height: 80px;
         float: left;
         box-sizing: border-box;
         border-radius: 20px;
         margin-right: 20px;
         margin-bottom: 20px;
-        border: solid #BDBDBD 1px;
-        -webkit-filter: grayscale(1);
-        -moz-filter: grayscale(1);
-        -ms-filter: grayscale(1);
-        -o-filter: grayscale(1);
-        filter: grayscale(1);
+        border: 1px solid #ccc;
     }
+
+    .skills-icons-list li:hover { border: 1px solid #E57700; }
+
+        .skills-icons-list li a {
+            opacity: .5;
+            -webkit-filter: grayscale(1);
+            -moz-filter: grayscale(1);
+            -ms-filter: grayscale(1);
+            -o-filter: grayscale(1);
+            filter: grayscale(1);
+        }
 
 #skills-text-list {
     background: orange;
