@@ -73,6 +73,10 @@ $(function(){
         $('.header ul').toggleClass('zero-height-xs');
     });
 
+    $('.btn-group').on('click', 'button:not(.active)', function(){
+        $('#skills-text-list > div').toggleClass('flipInX');
+    });
+
     $('body').on('activate.bs.scrollspy', function(e){
         $('.header').toggleClass('thin-header', $('a', e.target).attr('href') !== '#landing-page')
     });
@@ -87,12 +91,6 @@ $(function(){
             $('#textSkills').trigger('click');
         }
     }
-
-    //Анимация
-    $('#textSkills').on('click', function() {
-        $('#skills-text-list').find('div').addClass('flipInX');
-    });
-    //Анимация конец
 
     function navigate() {
         var section = $.getURLParameter('section');

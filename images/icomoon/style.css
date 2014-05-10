@@ -38,8 +38,10 @@
 .icon-email:before {
 	content: "\e61c";
 }
-.icon-happy38:before {
+.icon-happy38:after {
 	content: "\e61e";
+	font-family: 'icomoon';
+	padding-left: 10px;
 }
 .icon-educational9:before {
 	content: "\e617";
@@ -70,9 +72,17 @@
 }
 .icon-projects:before {
 	content: "\e606";
+	font-family: 'icomoon';
+	font-size: 40px;
+	display: block;
+	padding-bottom: 15px;
 }
 .icon-pdf:before {
 	content: "\e607";
+	font-family: 'icomoon';
+	padding-right: 6px;
+	color: red;
+	font-weight: normal;
 }
 .icon-logo:before {
 	content: "\e608";
