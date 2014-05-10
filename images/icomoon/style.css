@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?8vt890');
-	src:url('fonts/icomoon.eot?#iefix8vt890') format('embedded-opentype'),
-		url('fonts/icomoon.woff?8vt890') format('woff'),
-		url('fonts/icomoon.ttf?8vt890') format('truetype'),
-		url('fonts/icomoon.svg?8vt890#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-yaqs84');
+	src:url('fonts/icomoon.eot?#iefix-yaqs84') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-yaqs84') format('woff'),
+		url('fonts/icomoon.ttf?-yaqs84') format('truetype'),
+		url('fonts/icomoon.svg?-yaqs84#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,103 +23,55 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.icon-github:before {
-	content: "\e605";
+.icon-resume:before {
+	content: "\e603";
 }
-.icon-skype:before {
+.icon-working:before {
 	content: "\e600";
 }
-.icon-phone:before {
-	content: "\e602";
-}
-.icon-linkedin:before {
-	content: "\e604";
-}
-.icon-email:before {
-	content: "\e61c";
-}
-.icon-happy38:after {
-	content: "\e61e";
+.icon-smile:after {
+	content: "\e601";
 	font-family: 'icomoon';
 	padding-left: 10px;
 }
-.icon-educational9:before {
-	content: "\e617";
-}
-.icon-science1:before {
-	content: "\e615";
-}
-.icon-plant32:before {
-	content: "\e616";
-}
-.icon-educational:before {
-	content: "\e618";
-}
-.icon-computer145:before {
-	content: "\e619";
-}
-.icon-computer140:before {
-	content: "\e61a";
-}
-.icon-books22:before {
-	content: "\e61b";
-}
-.icon-working:before {
-	content: "\e601";
-}
-.icon-phone2:before {
-	content: "\e603";
+.icon-skype:before {
+	content: "\e602";
 }
 .icon-projects:before {
-	content: "\e606";
+	content: "\e604";
 	font-family: 'icomoon';
 	font-size: 40px;
 	display: block;
 	padding-bottom: 15px;
 }
+.icon-phone:before {
+	content: "\e605";
+}
 .icon-pdf:before {
-	content: "\e607";
+	content: "\e606";
 	font-family: 'icomoon';
 	padding-right: 6px;
 	color: red;
 	font-weight: normal;
 }
 .icon-logo:before {
+	content: "\e607";
+}
+.icon-linkedin:before {
 	content: "\e608";
 }
 .icon-learning:before {
 	content: "\e609";
 }
-.icon-idea14:before {
+.icon-idea:before {
 	content: "\e60a";
 }
-.icon-idea2:before {
+.icon-github:before {
 	content: "\e60b";
 }
-.icon-idea1:before {
+.icon-email:before {
 	content: "\e60c";
 }
-.icon-human40:before {
+.icon-cup:before {
 	content: "\e60d";
-}
-.icon-head1:before {
-	content: "\e60e";
-}
-.icon-cup4:before {
-	content: "\e60f";
-}
-.icon-cup3:before {
-	content: "\e610";
-}
-.icon-cup2:before {
-	content: "\e611";
-}
-.icon-cup1:before {
-	content: "\e612";
-}
-.icon-bald32:before {
-	content: "\e613";
-}
-.icon-baby9:before {
-	content: "\e614";
 }

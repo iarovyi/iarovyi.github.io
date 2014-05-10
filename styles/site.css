@@ -356,13 +356,12 @@ ul.centered-list { text-align: center; }
     }
 
     .nav #logo:before {
-        content: '\e608';
+        content: '\e607';
     }
 
     /*--- Menu --*/
     .nav ul {
         float: right;
-
     }
         /*--- Menu item --*/
         .nav li {
@@ -411,7 +410,7 @@ ul.centered-list { text-align: center; }
     /*--- Thin header end --*/
 
     .nav ul {
-        margin-right: 230px;
+        margin-right: 140px;
     }
 
         .nav li.active:not(:first-of-type) a:before {
@@ -1047,8 +1046,7 @@ ul.centered-list { text-align: center; }
         .contacts li {
             width: 125px;
             height: 100px;
-            padding-top: 22px;
-            padding: 22px 10px 0px 10px;
+            padding: 22px 8px 0px 8px;
         }
 
              .contact {
@@ -1068,6 +1066,8 @@ ul.centered-list { text-align: center; }
                      font-size: 13px;
                      font-family: "Century Gothic";
                  }
+
+                 .info-long { margin-left: -22px;; }
 /************** CONTACTS END *******************************/
 
 
