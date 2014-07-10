@@ -674,7 +674,7 @@ ul.centered-list { text-align: center; }
         font-size: 33px;
     }
 
-    .about p { line-height: 2.2em; }
+    .about p { line-height: 2.2em; text-align: justify;}
     .about p:not(:nth-of-type(1)) { padding-top: 10px;}
 
     .about a {
