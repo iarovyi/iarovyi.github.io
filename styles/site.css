@@ -555,7 +555,7 @@ ul.centered-list { text-align: center; }
                                                 transform: perspective(630px) rotateY(13deg) skewX(9deg);
                                             }}
     @media screen and (max-width: 780px)    {  .acquaintance {
-                                                top: 228px; left: 35px; width: 380px;
+                                                top: 228px; left: 35px; width: 340px;
                                                 -webkit-transform: perspective(630px) rotateY(12deg) skewX(9deg);
                                                 -moz-transform: perspective(630px) rotateY(12deg) skewX(9deg);
                                                 -ms-transform: perspective(630px) rotateY(12deg) skewX(9deg);
@@ -662,6 +662,13 @@ ul.centered-list { text-align: center; }
 /***********************************************************/
 /*#******************** ABOUT ******************************/
 /***********************************************************/
+@media screen and (max-width: 750px) {
+    .about{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 .about {
     background-color: #FFF;
     padding-top: 20px;
@@ -704,6 +711,10 @@ ul.centered-list { text-align: center; }
     .portrait-stripe:nth-of-type(1), .portrait-stripe:nth-of-type(5) { width: 190px;  }
     .portrait-stripe:nth-of-type(2), .portrait-stripe:nth-of-type(4) { width: 220px;  }
     .portrait-stripe:nth-of-type(3) { width: 240px; }
+
+    @media screen and (max-width: 750px) {
+        .portrait-stripe { display: none;  }
+    }
 /*--- Round Portrait end --*/
 /*********************** ABOUT END *************************/
 
