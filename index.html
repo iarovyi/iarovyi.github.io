@@ -18,12 +18,12 @@
     <link href="images/icomoon/style.css" type="text/css" rel="stylesheet"/>
     <link rel="icon" href="images/geek_icon.png" type="image/x-icon">
 </head>
-<body data-spy="scroll">
+<body data-spy="scroll" itemscope itemtype="http://schema.org/Person">
     <div class="old-browser-message">Please, upgrade your browser.</div>
     <!--HEADER-->
     <header class="header">
         <nav class="center nav">
-            <a id="logo" class="hidden-xs icon-logo fl" href="http://iarovyi.github.io/"></a>
+            <a id="logo" class="hidden-xs icon-logo fl" href="http://iarovyi.github.io/" itemprop="url"></a>
             <button id="menu-toggle" class="menu-toggle fr visible-xs"><span class="icon-bar"></span></button>
             <ul class="zero-height-xs">
                 <li><a href="#landing-page"></a></li>
@@ -40,7 +40,7 @@
 
     <!--LANDING PAGE-->
     <div id="landing-page" class="landing-page">
-        <p class="acquaintance">I'm Sergii Iarovyi, frontend-backend .NET software developer. If you are looking for
+        <p class="acquaintance" itemprop="description">I'm <span itemprop="name">Sergii Iarovyi</span>, <span itemprop="jobTitle">frontend-backend .NET software developer</span>. If you are looking for
             passionate coder with responsible and ambitious nature you have come to the right place.
         </p>
         <div class="center">
@@ -120,7 +120,7 @@
         <span id="about">Exploring the .NET universe using curly brackets</span>
         <h1 class="title-small">About</h1>
 
-        <div class="portrait-stripe"><img src="images/portrait.jpg"></div>
+        <div class="portrait-stripe"><img src="images/portrait.jpg" itemprop="image"></div>
         <div class="portrait-stripe"></div>
         <div class="portrait-stripe"></div>
         <div class="portrait-stripe"></div>
@@ -304,7 +304,7 @@
             <ul class="centered-list">
                 <li>
                     <span class="contact icon-phone">
-                        <span class="info">+380976367570</span>
+                        <span class="info" itemprop="telephone">+380976367570</span>
                     </span>
                 </li>
                 <li>
@@ -314,7 +314,7 @@
                 </li>
                 <li>
                     <a class="contact icon-email" href="mailto:sergii.i.iarovyi@gmail.com">
-                        <span class="info info-long">sergii.i.iarovyi@gmail.com</span>
+                        <span class="info info-long" itemprop="email">sergii.i.iarovyi@gmail.com</span>
                     </a>
                 </li>
                 <li>
