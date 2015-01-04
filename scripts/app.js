@@ -26,11 +26,11 @@ $(function(){
         })
     };
 
-    $.getURLParameter = function(name){
+    /*$.getURLParameter = function(name){
         return decodeURIComponent(
             (location.search.match(RegExp("[?|&]"+name+'=(.+?)(&|$)'))||[,null])[1] || ""
         );
-    };
+    };*/
 
     $.wait = function(delay) {
         var deferred = $.Deferred();
@@ -84,18 +84,10 @@ $(function(){
 
 
 
-
     function updateSkills() {
         $('#skills-icons-list').html($('#logo-slider ul').html()).find('li a').removeAttr('href target');
-        if ("text" === $.getURLParameter('skills')) {
+        if (location.hash === '#skills') {  //http://iarovyi.github.io/#skills
             $('#textSkills').trigger('click');
-        }
-    }
-
-    function navigate() {
-        var section = $.getURLParameter('section');
-        if (section) {
-            $('#' + section).scrollTo();
         }
     }
 
@@ -108,12 +100,9 @@ $(function(){
         $('#learningCount').attr('data-animate-to', Math.round(learnHours));
     }
 
-
-
     console && console.log('%cHi, curious man!', 'color: orange; font-size: 4em; border: 2px solid #8CC63F');
     $('[data-animate-to]').appear();
     calculateSkillsHours();
     updateSkills();
-    navigate();
 
 });

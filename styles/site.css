@@ -11,6 +11,17 @@ body *::selection { background: #ffa12d; }
 body *::-webkit-selection { background: #ffa12d; }
 body *::-moz-selection { background: #ffa12d; }
 
+@font-face {
+    font-family: 'Century Gothic';
+    src:url('../fonts/CenturyGothic/CenturyGothic.eot');
+    src:url('../fonts/CenturyGothic/CenturyGothic.eot') format('embedded-opentype'),
+    url('../fonts/CenturyGothic/CenturyGothic.woff') format('woff'),
+    url('../fonts/CenturyGothic/CenturyGothic.ttf') format('truetype'),
+    url('../fonts/CenturyGothic/CenturyGothic.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media screen and (max-width: 780px) {
     .hidden-xs { display: none !important; }
     .visible-xs { display: block; }
