@@ -249,9 +249,13 @@ ul.centered-list { text-align: center; }
 .icon.icon-mysql a,
 .icon.icon-linux a,
 .icon.icon-jquery a,
-.icon.icon-jasmine a
+.icon.icon-jasmine a,
+.icon.icon-less a,
+.icon.icon-signalR a
 { width: 105px; height: 57px; }
 
+.icon.icon-less a { background-position: -519px -66px; }
+.icon.icon-signalR a { background-position: -622px -66px; }
 .icon.icon-ui a { background-position: -271px 0px; }
 .icon.icon-scrum a { background-position: -376px -2px; }
 .icon.icon-redis a { background-position: -478px -2px; }
@@ -278,9 +282,15 @@ ul.centered-list { text-align: center; }
 .icon.icon-knockout a,
 .icon.icon-blend a,
 .icon.icon-wpf a,
-.icon.icon-ef a
+.icon.icon-ef a,
+.icon.icon-azure a,
+.icon.icon-teamcity a,
+.icon.icon-angularJs a
 { width: 140px; height: 70px; margin-top: 4px; }
 
+.icon.icon-azure a { background-position: -697px -121px; }
+.icon.icon-teamcity a { background-position: -697px -203px; }
+.icon.icon-angularJs a { background-position: -697px -268px; }
 .icon.icon-bootstrap a { background-position: 1px -121px; }
 .icon.icon-wp a { background-position: -139px -122px; }
 .icon.icon-nhibernate a { background-position: -279px -122px; }
@@ -937,6 +947,35 @@ ul.centered-list { text-align: center; }
                 -moz-animation-delay: 1.8s;
                 -o-animation-delay: 1.8s;
                 -ms-animation-delay: 1.8s;
+            }
+
+            #skills-text-list div:nth-child(11) {
+                -webkit-animation-delay: 2.0s;
+                animation-delay: 2.0s;
+                -moz-animation-delay: 2.0s;
+                -o-animation-delay: 2.0s;
+                -ms-animation-delay: 2.0s;
+            }
+            #skills-text-list div:nth-child(12) {
+                -webkit-animation-delay: 2.2s;
+                animation-delay: 2.2s;
+                -moz-animation-delay: 2.2s;
+                -o-animation-delay: 2.2s;
+                -ms-animation-delay: 2.2s;
+            }
+            #skills-text-list div:nth-child(13) {
+                -webkit-animation-delay: 2.4s;
+                animation-delay: 2.4s;
+                -moz-animation-delay: 2.4s;
+                -o-animation-delay: 2.4s;
+                -ms-animation-delay: 2.4s;
+            }
+            #skills-text-list div:nth-child(14) {
+                -webkit-animation-delay: 2.6s;
+                animation-delay: 2.6s;
+                -moz-animation-delay: 2.6s;
+                -o-animation-delay: 2.6s;
+                -ms-animation-delay: 2.6s;
             }
             /*--- Text skills animation end --*/
 /********************** SKILLS END *************************/
