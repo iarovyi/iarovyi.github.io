@@ -1,0 +1,228 @@
+.sliding-panel {
+    /*display: none;*/
+    position: fixed;
+    width: 320px;
+    top: 90px;
+    background: #fff;
+    z-index: 9;
+    border: 1px solid #CECECE;
+    padding-left: 50px;
+    z-index: 5001;
+    left: -320px;
+    transition: left .17s linear;
+}
+
+.mobile .sliding-panel {
+    display: none;
+}
+.txt-rttr-ctrl {
+    right: -320px;
+    left: auto;
+    padding-right: 50px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    transition: right .17s linear;
+}
+.sliding-panel > div {
+    padding: 10px 0;
+}
+.sh {
+    left: -40px;
+}
+.txt-rttr-ctrl.sh {
+    right: -40px;
+    left: auto;
+}
+a.sliding-panel-arrow {
+    position: absolute;
+    top: 116px;
+    right: -56px;
+    width: 60px;
+    height: 50px;
+    padding: 0 5px 0 9px;
+    background-color: #fff;
+    color: #000;
+    border-top: 1px solid #CECECE;
+    border-right: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+    font-size: 28px;
+    line-height: 50px;
+    cursor: pointer;
+    z-index: 1032;
+    -webkit-transition: all ease-in-out 0s;
+    transition: all ease-in-out 0s;
+}
+.txt-rttr-ctrl a.sliding-panel-arrow {
+    right: auto;
+    border-right: 0;
+    left: -56px;
+    border-top: 1px solid #CECECE;
+    border-left: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+}
+a.sliding-panel-arrow:active, a.sliding-panel-arrow:hover, a.sliding-panel-arrow:focus {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.9);
+}
+.hue-field {
+    width: 12px !important;
+}
+/* Theme Panel */
+
+.sliding-panel-title {
+    width: 100%;
+    padding: 20px 15px 10px 20px;
+}
+.nav-changer {
+    width: 230px;
+    margin-bottom: 20px;
+    margin-left, margin-right: auto;
+}
+.nav-changer .btn {
+    width: 100%;
+}
+.btn-group>.btn:first-child {
+    margin-left: 7px;
+}
+.dropdown-menu {
+    margin: 2px 7px 0;
+}
+.nav-changer ul, .nav-changer li {
+    width: 100%;
+}
+.selector {
+    /*padding: 10px 0 0;*/
+    /*border-top: 1px solid rgba(0, 0, 0, .4);*/
+}
+.selector button {
+    display: inline-block;
+    margin: 0 2px 5px 0;
+    padding: 5px 7px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, .4);
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.selector button:hover {
+    border: 1px solid rgba(0, 0, 0, .95);
+}
+.selector button:focus {
+    box-shadow: none;
+    outline: none;
+}
+.selector button.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .45;
+}
+.colors-container {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 0px;
+    margin-bottom: 0;
+}
+.style-changer-text {
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, .7);
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-bottom: 0;
+}
+.style-changer-text small {
+    letter-spacing: .1em;
+    text-transform: none;
+    line-height: 14px;
+    color: rgba(0, 0, 0, .7);
+}
+.style-changer-detail {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(0, 0, 0, .7);
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-bottom: 0;
+}
+.sliding-panel .colors-container .color-changer {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    margin-right: 2px;
+    margin-top: 1px;
+}
+.sliding-panel .colors-container .color-changer a {
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+    /*border:1px solid #CECECE;*/
+    
+    cursor: pointer;
+    /*border-radius: 3px;*/
+}
+.cd-hl-demo-wrapp {
+    position: relative;
+    min-height: 150px;
+    width: 100%;
+    margin: 0 auto;
+}
+.cd-hl-demo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 100%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .cd-hl-demo-wrapp {
+    min-height: 100px;
+}
+    .cd-hl-demo {
+        display: block;
+        opacity: 0;
+}
+}
+.imhere {
+    display: block;
+    opacity: 1;
+}
+@-webkit-keyframes look {
+    0% {
+        right: -320px;
+    }
+    50% {
+        right: -300px;
+    }
+    100% {
+        right: -320px;
+    }
+}
+@keyframes look {
+    0% {
+        right: -320px;
+    }
+    50% {
+        right: -300px;
+    }
+    100% {
+        right: -320px;
+    }
+}
+.look {
+    -webkit-animation-name: look;
+    animation-name: look;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
