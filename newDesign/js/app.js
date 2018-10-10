@@ -120,3 +120,8 @@ var particlesConfig =  {
 };
 
 particlesJS('particles-js', particlesConfig);
+
+$('#cvBtn').on('click', function(){
+  var win = window.open('/CV_Sergii_Iarovyi.pdf', '_blank');
+  win.focus();
+});
