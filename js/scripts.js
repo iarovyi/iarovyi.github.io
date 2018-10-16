@@ -1401,6 +1401,7 @@
         init_process_slider();
         init_animsition();
         init_map();
+        $('#skills-filters').hide();
     }
 })(jQuery);
 
