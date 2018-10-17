@@ -1417,7 +1417,7 @@ $(function () {
         })
     };
 
-    $(document).on('click', '#mobile-navbar-collapse a[href^=#], #contactBtn, #cvBtn, #contactLink', function(e) {
+    $(document).on('click', '#mobile-navbar-collapse a[href^=#], #contactBtn, #cvBtn, #contactLink, #arrow-down, #arrow-up', function(e) {
         e.preventDefault();
         $($(this).attr('href')).scrollTo(600, 'swing')
     });
