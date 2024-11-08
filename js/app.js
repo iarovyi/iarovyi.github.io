@@ -1,4 +1,4 @@
-var particlesConfig =  {
+var particlesConfig = {
   "particles": {
     "number": {
       "value": 80,
@@ -121,7 +121,7 @@ var particlesConfig =  {
 
 particlesJS('particles-js', particlesConfig);
 
-$('#cvBtn').on('click', function(){
-  var win = window.open('/CV_Sergii_Iarovyi.pdf', '_blank');
+$('#cvBtn').on('click', function () {
+  var win = window.open('/CV_Sergii_Yarovyi.pdf', '_blank');
   win.focus();
 });
